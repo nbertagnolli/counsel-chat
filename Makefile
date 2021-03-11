@@ -1,6 +1,6 @@
 # Interact Variables
 # defaults
-CHECKPOINT_DIR = "model"
+CHECKPOINT_DIR = "counselchat-convai"
 DATA = "data/counsel_chat_250-tokens_full.json"
 TEMPERATURE = 0.7
 MAX_LENGTH = 30
@@ -20,7 +20,8 @@ help: ## This help.
 # DOCKER TASKS
 # Build the container
 build:
-	docker build -t convai -f Dockerfile .
+	docker system prune && \
+	docker build -t convai -f docker/Dockerfile .
 
 ## Interact with the model
 interact:
