@@ -13,11 +13,13 @@ There is a larger writeup available on [medium](https://medium.com/towards-data-
 
 If you use this data in your work please cite the medium article.
 
+```
 @misc{bertagnolli2020counsel,
   title={Counsel chat: Bootstrapping high-quality therapy data},
   author={Bertagnolli, Nicolas},
   year={2020},
   publisher={Towards Data Science. https://towardsdatascience. com/counsel-chat~…}
 }
+```
 
 
